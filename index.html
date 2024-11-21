@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Не дуолінго</title>
+    <link rel="stylesheet" href="..\CSS\style.css"> 
+    <link rel="icon" href="..\IMG\favicon.svg" type="image/svg">
+    <script src="..\JS\jquery-3.7.1.min.js" defer></script>
+    <script src="..\JS\script.js" defer></script>
+
+</head>
+<body>
+    <div id="mainDiv">
+        <div id="wordDiv"> Word </div>
+        <div id="gameplayDiv">
+            <div id="buttonsDiv">
+                <img src="..\IMG\arrow-left.png" class="arrow-img">
+                <div id="current"> 0/0 </div>
+                <img src="..\IMG\arrow-right.png" class="arrow-img">
+            </div>
+            <input type="text" id="takeAGuess">
+        </div>
+        <div id="resultsDiv">
+            <div id="correct"> Вірно <br> 0 </div>
+            <div> 
+                <div> Статистика  </div> 
+                <div> </div> 
+            </div>
+            <div id="incorrect"> Невірно <br> 0 </div>
+        </div>
+    </div>
+
+    <div id="overlay">
+        <div id="verdict">
+            Кінець!
+            <hr class="divider">
+            <div id="comparisonDiv">
+                <div id="green"></div>
+                <div id="red"></div>
+            </div>
+            <p> </p>
+            <hr class="divider">
+            Натисни будь де щоб почати знов...
+        </div>
+    </div>
+</body>
+</html>
